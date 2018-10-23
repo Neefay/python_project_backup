@@ -1,0 +1,23 @@
+{
+	"db": {
+		"name": "myDatabaseName",
+		"user": "User",
+		"password": "Password",
+		"file": "database.backup.sql"
+	},
+	"project": {
+		"zip": "MY PROJECT",
+		"path": "Path/To/My/Project",
+		"folders": [
+			"folders", "that", "will", "be", "traversed"
+		],
+		"root_files": [
+			"files.jpg", "that.png", "will.py", "be.bmp", "included.webm"
+		],
+		"excluded_folders": ["node_modules", "bower_components", "not", "these", "either"]
+	},
+	"dropbox": {
+		"token": "INSERT YOUR DROPBOX API TOKEN HERE",
+		"destiny": ["MyDropboxBackupFolder", "Project Backup"]
+	}
+}
