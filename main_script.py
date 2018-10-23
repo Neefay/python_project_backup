@@ -3,7 +3,7 @@ from modules.dropbox import upload
 from modules.helpers import read_json
 
 print("+++++++++++++++++++++++++++");
-print("BELLIGERENCE BACKUP ROUTINE")
+print("PROJECT BACKUP ROUTINE")
 print("+++++++++++++++++++++++++++");
 
 config = read_json("config.json")
